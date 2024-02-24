@@ -19,16 +19,16 @@ Post:
 
 ## Non-Functional Requirements
 
-#Scalable:
-The database is designed keeping in mind Normalization concepts 1NF, 2NF AND 3NF
-Also Binary Search has been used for indexing means results would be fetched quickly
+# Scalable:
+- The database is designed keeping in mind Normalization concepts 1NF, 2NF AND 3NF
+- Also Binary Search has been used for indexing means results would be fetched quickly
 
-#Performance:
-As many posts are posted at the same time so initally in news feed only 20 posts would be shown.
-We can apply pagination here so we donot have to call all posts at same time. We can call in batches using limit and offset (pagination)
+# Performance:
+- As many posts are posted at the same time so initally in news feed only 20 posts would be shown.
+- We can apply pagination here so we donot have to call all posts at same time. We can call in batches using limit and offset (pagination)
 
-#Secure:
-The news feed system is highly secure as we are using JWT (JSON Web Token) for user autentication. After user create his profile then only he can post.
+# Secure:
+- The news feed system is highly secure as we are using JWT (JSON Web Token) for user autentication. After user create his profile then only he can post.
 
 ## Setup
 
