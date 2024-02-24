@@ -2,7 +2,33 @@
 
 This is the backend for Xgrid assessment.
 
-![alt text](https://github.com/[sufiyanirfan3]/[XTH_NewsFeed]/blob/[master]/Diagram.png?raw=true)
+![alt text](https://github.com/[sufiyanirfan3]/[XTH_NewsFeed]/blob/[master]/Diagram.PNG?raw=true)
+
+## Functional Requirments
+User:
+- User can create profile
+- User can join group
+- User can send friend request
+- User can view the newsfeed of all the posts
+
+Post:
+- User can create post
+- User can view his post
+- User can update his post
+- User can delete his post
+
+## Non-Functional Requirements
+
+#Scalable:
+The database is designed keeping in mind Normalization concepts 1NF, 2NF AND 3NF
+Also Binary Search has been used for indexing means results would be fetched quickly
+
+#Performance:
+As many posts are posted at the same time so initally in news feed only 20 posts would be shown.
+We can apply pagination here so we donot have to call all posts at same time. We can call in batches using limit and offset (pagination)
+
+#Secure:
+The news feed system is highly secure as we are using JWT (JSON Web Token) for user autentication. After user create his profile then only he can post.
 
 ## Setup
 
