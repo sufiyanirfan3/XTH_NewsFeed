@@ -2,7 +2,7 @@
 
 This is the backend for Xgrid assessment.
 
-![alt text](https://github.com/[sufiyanirfan3]/[XTH_NewsFeed]/blob/[master]/Diagram.PNG?raw=true)
+![alt text](https://github.com/sufiyanirfan3/XTH_NewsFeed/blob/master/Diagram.PNG)
 
 ## Functional Requirments
 User:
